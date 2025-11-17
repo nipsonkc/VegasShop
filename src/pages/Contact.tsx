@@ -24,7 +24,8 @@ const Contact = () => {
       <Navigation />
 
       {/* Hero Section with Gradient Background */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-secondary via-background to-secondary/50 text-center relative overflow-hidden">
+      <section className="pt-32 pb-16 bg-gradient-to-b from-[#0A0A0A] via-[#1A1A1A] to-[#3A2F1A] text-center relative overflow-hidden">
+
         {/* Animated Background Elements */}
         <div className="absolute top-10 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-float" />
         <div className="absolute bottom-10 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float" style={{ animationDelay: "2s" }} />
@@ -33,10 +34,12 @@ const Contact = () => {
           <h1 className="text-4xl md:text-6xl font-bold text-primary mb-4 drop-shadow-[0_0_20px_rgba(234,179,8,0.3)]">
             Contact Us
           </h1>
-          <p className="text-lg md:text-xl text-foreground mb-6">
-            Get in touch with us - we're here to help!
+         
+          <p className="text-lg md:text-xl text-[#F5EAC6] mb-6">
+           Get in touch with us - we're here to help!
           </p>
-          
+
+
           {/* Social Media Links */}
           <SocialMediaLinks className="justify-center" />
         </div>

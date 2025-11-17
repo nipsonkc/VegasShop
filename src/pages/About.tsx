@@ -47,16 +47,19 @@ const About = () => {
       <Navigation />
 
       {/* Hero Section with Animated Gradient Background */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-secondary via-background to-secondary/50 text-center relative overflow-hidden">
+     <section className="pt-32 pb-16 bg-gradient-to-b from-[#0A0A0A] via-[#1A1A1A] to-[#3A2F1A] text-center relative overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute top-10 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-float" />
         <div className="absolute bottom-10 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float" style={{ animationDelay: "2s" }} />
         
+       
+
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6 drop-shadow-[0_0_20px_rgba(234,179,8,0.3)]">
             About Kush Smoke Shop
           </h1>
-          <p className="text-lg md:text-xl text-foreground max-w-4xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-[#F5EAC6] max-w-4xl mx-auto leading-relaxed">
+
             Welcome to Kush Smoke Shop, your premier destination for quality
             smoke shop products in Las Vegas. Since our establishment, we've
             been committed to providing our community with top-tier products,
@@ -65,12 +68,15 @@ const About = () => {
         </div>
       </section>
 
+      
+
       {/* Mission Section */}
       <section className="py-12 md:py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-primary">Our Mission</h2>
             <div className="premium-card bg-card rounded-xl p-6 md:p-8 text-center border-2 border-primary/20">
+            
               <p className="text-base md:text-lg text-card-foreground leading-relaxed">
                 Our mission is to create a welcoming environment where customers
                 can find premium smoke shop products, receive knowledgeable

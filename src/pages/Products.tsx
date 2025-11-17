@@ -62,7 +62,9 @@ const Products = () => {
       <Navigation />
 
       {/* Hero Section with Animated Gradient Background */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-secondary via-background to-secondary/50 text-center relative overflow-hidden">
+
+<section className="pt-32 pb-16 bg-gradient-to-b from-[#0A0A0A] via-[#1A1A1A] to-[#3A2F1A] text-center relative overflow-hidden">
+
         {/* Floating Animated Elements */}
         <div className="absolute top-10 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-float" />
         <div className="absolute bottom-10 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float" style={{ animationDelay: "2s" }} />
@@ -71,9 +73,12 @@ const Products = () => {
           <h1 className="text-4xl md:text-6xl font-bold text-primary mb-4 drop-shadow-[0_0_20px_rgba(234,179,8,0.3)]">
             Our Products
           </h1>
-          <p className="text-lg md:text-xl text-foreground">
-            Explore our extensive collection of premium smoke shop products
-          </p>
+        
+         
+<p className="text-lg md:text-xl text-[#F5EAC6]">
+  Explore our extensive collection of premium smoke shop products
+</p>
+
         </div>
       </section>
 
